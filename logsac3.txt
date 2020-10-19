@@ -1,0 +1,94 @@
+2020-10-19T22:58:35.679730+00:00 app[api]: Initial release by user pedrolucas58@hotmail.com
+2020-10-19T22:58:35.679730+00:00 app[api]: Release v1 created by user pedrolucas58@hotmail.com
+2020-10-19T22:58:35.796298+00:00 app[api]: Release v2 created by user pedrolucas58@hotmail.com
+2020-10-19T22:58:35.796298+00:00 app[api]: Enable Logplex by user pedrolucas58@hotmail.com
+2020-10-19T23:01:31.000000+00:00 app[api]: Build started by user pedrolucas58@hotmail.com
+2020-10-19T23:01:57.153977+00:00 app[api]: Deploy 5c77a840 by user pedrolucas58@hotmail.com
+2020-10-19T23:01:57.153977+00:00 app[api]: Release v3 created by user pedrolucas58@hotmail.com
+2020-10-19T23:01:57.166572+00:00 app[api]: Scaled to web@1:Free by user pedrolucas58@hotmail.com
+2020-10-19T23:02:00.181652+00:00 heroku[web.1]: Starting process with command `python devopst8.py`
+2020-10-19T23:02:03.231327+00:00 app[web.1]: * Serving Flask app "devopst8" (lazy loading)
+2020-10-19T23:02:03.231357+00:00 app[web.1]: * Environment: production
+2020-10-19T23:02:03.231358+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-19T23:02:03.231417+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-19T23:02:03.231453+00:00 app[web.1]: * Debug mode: off
+2020-10-19T23:02:03.240140+00:00 app[web.1]: * Running on http://0.0.0.0:24864/ (Press CTRL+C to quit)
+2020-10-19T23:02:03.815900+00:00 heroku[web.1]: State changed from starting to up
+2020-10-19T23:02:06.000000+00:00 app[api]: Build succeeded
+2020-10-19T23:02:36.059120+00:00 app[web.1]: 10.43.182.207 - - [19/Oct/2020 23:02:36] "GET / HTTP/1.1" 404 -
+2020-10-19T23:02:36.059745+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=7e9cb6ac-870f-4187-94db-3aa905a213be fwd="187.74.212.123" dyno=web.1 connect=0ms service=12ms status=404 bytes=379 protocol=https
+2020-10-19T23:02:36.467695+00:00 app[web.1]: 10.43.182.207 - - [19/Oct/2020 23:02:36] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-19T23:02:36.468189+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gentle-anchorage-23275.herokuapp.com request_id=db836a5f-8c51-40ab-b887-0cd4a3627155 fwd="187.74.212.123" dyno=web.1 connect=0ms service=3ms status=404 bytes=379 protocol=https
+2020-10-19T23:04:00.410417+00:00 app[web.1]: 10.91.151.49 - - [19/Oct/2020 23:04:00] "GET / HTTP/1.1" 404 -
+2020-10-19T23:04:00.410947+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=7aeb9a49-97b0-4600-a782-4a6a1d6ca160 fwd="187.74.212.123" dyno=web.1 connect=1ms service=2ms status=404 bytes=379 protocol=https
+2020-10-19T23:05:52.964384+00:00 app[web.1]: 10.43.182.207 - - [19/Oct/2020 23:05:52] "GET / HTTP/1.1" 404 -
+2020-10-19T23:05:52.964821+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=c8a126ae-0fb7-4fa5-8069-56a5fa03d1a6 fwd="187.74.212.123" dyno=web.1 connect=0ms service=2ms status=404 bytes=379 protocol=https
+2020-10-19T23:06:03.401418+00:00 app[web.1]: 10.43.182.207 - - [19/Oct/2020 23:06:03] "GET / HTTP/1.1" 404 -
+2020-10-19T23:06:03.402169+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=93b80ffe-13ed-4fee-9ee3-dae546e1c864 fwd="187.74.212.123" dyno=web.1 connect=0ms service=3ms status=404 bytes=379 protocol=https
+2020-10-19T23:08:16.051146+00:00 app[web.1]: 10.37.222.189 - - [19/Oct/2020 23:08:16] "GET / HTTP/1.1" 404 -
+2020-10-19T23:08:16.057780+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=00956d6f-1b5b-479d-b6c6-aa0c06e6854f fwd="187.74.212.123" dyno=web.1 connect=17ms service=2ms status=404 bytes=379 protocol=https
+2020-10-19T23:22:15.000000+00:00 app[api]: Build started by user pedrolucas58@hotmail.com
+2020-10-19T23:22:39.679436+00:00 app[api]: Release v4 created by user pedrolucas58@hotmail.com
+2020-10-19T23:22:39.679436+00:00 app[api]: Deploy 45ccc653 by user pedrolucas58@hotmail.com
+2020-10-19T23:22:40.252121+00:00 heroku[web.1]: Restarting
+2020-10-19T23:22:40.254658+00:00 heroku[web.1]: State changed from up to starting
+2020-10-19T23:22:41.117646+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-19T23:22:41.186727+00:00 heroku[web.1]: Process exited with status 143
+2020-10-19T23:22:44.493330+00:00 heroku[web.1]: Starting process with command `python devopst8.py`
+2020-10-19T23:22:48.000000+00:00 app[api]: Build succeeded
+2020-10-19T23:22:48.614341+00:00 app[web.1]: * Serving Flask app "devopst8" (lazy loading)
+2020-10-19T23:22:48.614374+00:00 app[web.1]: * Environment: production
+2020-10-19T23:22:48.614407+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-19T23:22:48.614458+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-19T23:22:48.614498+00:00 app[web.1]: * Debug mode: off
+2020-10-19T23:22:48.645710+00:00 app[web.1]: * Running on http://0.0.0.0:42749/ (Press CTRL+C to quit)
+2020-10-19T23:22:48.926378+00:00 heroku[web.1]: State changed from starting to up
+2020-10-19T23:24:12.718930+00:00 app[web.1]: 10.43.250.98 - - [19/Oct/2020 23:24:12] "GET / HTTP/1.1" 200 -
+2020-10-19T23:24:12.721157+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=37379e55-6bcb-48bc-a12a-fa11b285d525 fwd="187.74.212.123" dyno=web.1 connect=1ms service=5ms status=200 bytes=625 protocol=https
+2020-10-19T22:58:35.679730+00:00 app[api]: Initial release by user pedrolucas58@hotmail.com
+2020-10-19T22:58:35.679730+00:00 app[api]: Release v1 created by user pedrolucas58@hotmail.com
+2020-10-19T22:58:35.796298+00:00 app[api]: Release v2 created by user pedrolucas58@hotmail.com
+2020-10-19T22:58:35.796298+00:00 app[api]: Enable Logplex by user pedrolucas58@hotmail.com
+2020-10-19T23:01:31.000000+00:00 app[api]: Build started by user pedrolucas58@hotmail.com
+2020-10-19T23:01:57.153977+00:00 app[api]: Deploy 5c77a840 by user pedrolucas58@hotmail.com
+2020-10-19T23:01:57.153977+00:00 app[api]: Release v3 created by user pedrolucas58@hotmail.com
+2020-10-19T23:01:57.166572+00:00 app[api]: Scaled to web@1:Free by user pedrolucas58@hotmail.com
+2020-10-19T23:02:00.181652+00:00 heroku[web.1]: Starting process with command `python devopst8.py`
+2020-10-19T23:02:03.231327+00:00 app[web.1]: * Serving Flask app "devopst8" (lazy loading)
+2020-10-19T23:02:03.231357+00:00 app[web.1]: * Environment: production
+2020-10-19T23:02:03.231358+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-19T23:02:03.231417+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-19T23:02:03.231453+00:00 app[web.1]: * Debug mode: off
+2020-10-19T23:02:03.240140+00:00 app[web.1]: * Running on http://0.0.0.0:24864/ (Press CTRL+C to quit)
+2020-10-19T23:02:03.815900+00:00 heroku[web.1]: State changed from starting to up
+2020-10-19T23:02:06.000000+00:00 app[api]: Build succeeded
+2020-10-19T23:02:36.059120+00:00 app[web.1]: 10.43.182.207 - - [19/Oct/2020 23:02:36] "GET / HTTP/1.1" 404 -
+2020-10-19T23:02:36.059745+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=7e9cb6ac-870f-4187-94db-3aa905a213be fwd="187.74.212.123" dyno=web.1 connect=0ms service=12ms status=404 bytes=379 protocol=https
+2020-10-19T23:02:36.467695+00:00 app[web.1]: 10.43.182.207 - - [19/Oct/2020 23:02:36] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-19T23:02:36.468189+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=gentle-anchorage-23275.herokuapp.com request_id=db836a5f-8c51-40ab-b887-0cd4a3627155 fwd="187.74.212.123" dyno=web.1 connect=0ms service=3ms status=404 bytes=379 protocol=https
+2020-10-19T23:04:00.410417+00:00 app[web.1]: 10.91.151.49 - - [19/Oct/2020 23:04:00] "GET / HTTP/1.1" 404 -
+2020-10-19T23:04:00.410947+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=7aeb9a49-97b0-4600-a782-4a6a1d6ca160 fwd="187.74.212.123" dyno=web.1 connect=1ms service=2ms status=404 bytes=379 protocol=https
+2020-10-19T23:05:52.964384+00:00 app[web.1]: 10.43.182.207 - - [19/Oct/2020 23:05:52] "GET / HTTP/1.1" 404 -
+2020-10-19T23:05:52.964821+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=c8a126ae-0fb7-4fa5-8069-56a5fa03d1a6 fwd="187.74.212.123" dyno=web.1 connect=0ms service=2ms status=404 bytes=379 protocol=https
+2020-10-19T23:06:03.401418+00:00 app[web.1]: 10.43.182.207 - - [19/Oct/2020 23:06:03] "GET / HTTP/1.1" 404 -
+2020-10-19T23:06:03.402169+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=93b80ffe-13ed-4fee-9ee3-dae546e1c864 fwd="187.74.212.123" dyno=web.1 connect=0ms service=3ms status=404 bytes=379 protocol=https
+2020-10-19T23:08:16.051146+00:00 app[web.1]: 10.37.222.189 - - [19/Oct/2020 23:08:16] "GET / HTTP/1.1" 404 -
+2020-10-19T23:08:16.057780+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=00956d6f-1b5b-479d-b6c6-aa0c06e6854f fwd="187.74.212.123" dyno=web.1 connect=17ms service=2ms status=404 bytes=379 protocol=https
+2020-10-19T23:22:15.000000+00:00 app[api]: Build started by user pedrolucas58@hotmail.com
+2020-10-19T23:22:39.679436+00:00 app[api]: Release v4 created by user pedrolucas58@hotmail.com
+2020-10-19T23:22:39.679436+00:00 app[api]: Deploy 45ccc653 by user pedrolucas58@hotmail.com
+2020-10-19T23:22:40.252121+00:00 heroku[web.1]: Restarting
+2020-10-19T23:22:40.254658+00:00 heroku[web.1]: State changed from up to starting
+2020-10-19T23:22:41.117646+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-19T23:22:41.186727+00:00 heroku[web.1]: Process exited with status 143
+2020-10-19T23:22:44.493330+00:00 heroku[web.1]: Starting process with command `python devopst8.py`
+2020-10-19T23:22:48.000000+00:00 app[api]: Build succeeded
+2020-10-19T23:22:48.614341+00:00 app[web.1]: * Serving Flask app "devopst8" (lazy loading)
+2020-10-19T23:22:48.614374+00:00 app[web.1]: * Environment: production
+2020-10-19T23:22:48.614407+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-19T23:22:48.614458+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-19T23:22:48.614498+00:00 app[web.1]: * Debug mode: off
+2020-10-19T23:22:48.645710+00:00 app[web.1]: * Running on http://0.0.0.0:42749/ (Press CTRL+C to quit)
+2020-10-19T23:22:48.926378+00:00 heroku[web.1]: State changed from starting to up
+2020-10-19T23:24:12.718930+00:00 app[web.1]: 10.43.250.98 - - [19/Oct/2020 23:24:12] "GET / HTTP/1.1" 200 -
+2020-10-19T23:24:12.721157+00:00 heroku[router]: at=info method=GET path="/" host=gentle-anchorage-23275.herokuapp.com request_id=37379e55-6bcb-48bc-a12a-fa11b285d525 fwd="187.74.212.123" dyno=web.1 connect=1ms service=5ms status=200 bytes=625 protocol=https
